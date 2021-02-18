@@ -3,16 +3,19 @@ import { UserConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 import ViteComponents from 'vite-plugin-components'
+import WindiCSS from 'vite-plugin-windicss'
 
 const config: UserConfig = {
-  alias: {
-    '@': `${path.resolve(__dirname, 'src')}/`,
+  resolve: {
+    alias: {
+      '@': `${path.resolve(__dirname, 'src')}/`,
+    },
   },
   plugins: [
     Vue({
       include: [/\.vue$/],
     }),
-
+    WindiCSS(),
     ViteComponents({
       extensions: ['vue'],
 

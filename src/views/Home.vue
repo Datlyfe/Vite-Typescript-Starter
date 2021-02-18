@@ -10,7 +10,7 @@
       <div
         class="p-3 text-xl font-medium text-yellow-600 bg-yellow-100 rounded"
       >
-        Vite 2 + Typescript 4 + Tailwind 2
+        Vite v2 + Typescript v4 + Tailwind v2
       </div>
     </div>
   </div>

@@ -1,5 +1,3 @@
-<img src="https://socialify.git.ci/Datlyfe/Vite-Typescript-Starter/image?language=1&logo=https%3A%2F%2Fi.ibb.co%2FxLtwNb2%2F26a1.png%22&owner=1&theme=Light">
-
 ## Usage
 
 ### Development
