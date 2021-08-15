@@ -17,9 +17,8 @@
     "strictNullChecks": true,
     "forceConsistentCasingInFileNames": true,
     "types": [
+      "node",
       "vite/client",
-      "jest",
-      "@testing-library/jest-dom"
     ],
     "paths": {
       "@/*": [
